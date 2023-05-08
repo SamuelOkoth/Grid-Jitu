@@ -54,3 +54,21 @@ body {
     border: 0.2rem solid #fff;
     border-radius: 100%;
 }
+
+.report-for {
+    background-color: var(--blue);
+    height: 14.5rem;
+    border-radius: 1rem;
+    z-index: 0;
+    padding: 2rem;
+}
+
+.options {
+    background-color: var(--darkBlue);
+    height: 8.5rem;
+    margin-top: -1rem;
+    padding: 2rem 2rem 1rem;
+    border-radius: 1rem;
+    border-top-right-radius: 0rem;
+    border-top-left-radius: 0rem;
+}
