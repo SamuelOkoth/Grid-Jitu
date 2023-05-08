@@ -72,3 +72,23 @@ body {
     border-top-right-radius: 0rem;
     border-top-left-radius: 0rem;
 }
+
+.box {
+    display: flex;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 1rem;
+}
+
+.item {
+    width: 14rem;
+    height: 14rem;
+    list-style: none;
+    background-color: var(--lightRedWork);
+    border-radius: 1.2rem;
+    z-index: 10;
+}
