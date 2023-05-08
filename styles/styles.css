@@ -297,3 +297,7 @@ body {
         font-weight: 600;
     }
 }
+
+.attribution {
+    align-content: baseline;
+}
