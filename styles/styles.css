@@ -14,3 +14,15 @@
     --softBluePlay: hsl(195, 74%, 62%);
     --lightGray: rgba(255, 255, 255, 0.596);
 }
+
+body {
+    background-color: var(--veryDarkBlue);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: "Rubik", sans-serif;
+    font-weight: 300;
+}
