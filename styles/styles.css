@@ -130,3 +130,170 @@ body {
     right: 2rem;
     top: 2rem;
 }
+
+.subject {
+    color: #fff;
+    margin: 0;
+}
+
+.hours {
+    color: #fff;
+    font-size: 3rem;
+    margin: 0;
+    font-weight: 300;
+}
+
+.last-week-hours {
+    color: var(--lightGray);
+    margin: 0;
+}
+
+.play {
+    background-color: var(--softBluePlay);
+}
+
+.work {
+    background-color: var(--lightRedWork);
+}
+
+.study {
+    background-color: var(--lightRedStudy);
+}
+
+.exercise {
+    background-color: var(--limeGreenExercise);
+}
+
+.social {
+    background-color: var(--violetSocial);
+}
+
+.self-care {
+    background-color: var(--softOrangeSelfCare);
+}
+
+.attribution {
+    position: absolute;
+    top: 83%;
+    left: 4%;
+    color: #fff;
+}
+
+.attribution a {
+    color: #ffe4c4;
+}
+
+.attribution a:hover {
+    color: #bc8f8f;
+}
+
+.time-option {
+    color: var(--lightGray);
+}
+
+.time-option:hover {
+    color: #fff;
+    cursor: pointer;
+}
+
+.active {
+    color: #fff;
+}
+
+@media (max-width: 600px) {
+    body {
+        width: 100vw;
+        padding: 2rem 0;
+        margin: 0;
+    }
+    .box {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+    }
+    .jeremy {
+        width: 70%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: fit-content;
+        margin: auto;
+    }
+    .report-for {
+        display: flex;
+        width: 100%;
+        height: fit-content;
+        justify-content: center;
+        align-items: center;
+        padding: 0 2rem;
+    }
+    .report-for img {
+        width: 70px;
+        height: 70px;
+    }
+    .report-for h1,
+    .report-for p {
+        width: 60%;
+    }
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100vw;
+    }
+    .options {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: fit-content;
+    }
+    .container {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding: 0;
+    }
+    .attribution {
+        top: 230%;
+        padding-bottom: 2rem;
+        width: 85%;
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 0.5rem;
+    }
+    .text-cont-jeremy {
+        width: 70%;
+        padding-left: 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-bottom: 1.5rem;
+    }
+    .text-cont-jeremy h1 {
+        font-size: 1.6rem;
+        width: 100%;
+    }
+    .item {
+        width: 85%;
+        margin: auto;
+        padding: 0;
+        height: fit-content;
+    }
+    .hours-cont {
+        display: flex;
+        justify-content: space-between;
+    }
+    .hours {
+        font-size: 2rem;
+    }
+    .item-cont {
+        height: fit-content;
+    }
+    .subject {
+        font-weight: 600;
+    }
+}
